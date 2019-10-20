@@ -47,7 +47,7 @@ class Song
   
   def self.artist_count
     
-    genre_count ={}
+    artist_count ={}
     
     @@artist.each do |artist|
       if artist_count[artist] #=== TRUE
